@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/javahometech/my-app'
+     git 'https://github.com/ouily1/repo1'
    }
    stage('Compile-Package'){
       def mvnhome = tool name: '', type: 'maven'   
